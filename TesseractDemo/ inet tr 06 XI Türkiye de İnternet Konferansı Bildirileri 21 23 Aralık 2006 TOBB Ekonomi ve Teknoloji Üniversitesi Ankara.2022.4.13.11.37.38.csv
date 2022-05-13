@@ -1,0 +1,465 @@
+13-04-2022 11:37:38,"[{0: 'inet-tr\'06 - XI. ""Türkiye\'de Ýnternet"" Konferansý Bildirileri\n21-23 Aralýk 2006 TOBB Ekonomi ve Teknoloji Üniversitesi, Ankara\n\n', 1: 'Yapay Zeka Teknikleri ve Yapay Sinir Aðlarý Kullanýlarak\n\nWeb Sayfalarýnýn Sýnýflandýrýlmasý\n\n', 2: 'Yrd.Doç.Dr. Aybars Uður, Ahmet Cumhur Kýnacý\nEge Üniversitesi, Bilgisayar Mühendisliði Bölümü\n\naybars.ugur(Dege.edu.tr, cumhur.kinaci(dege.edu.tr\n\n', 3: ""Özet: Bu makalede Yapay Zeka ve Yapay Sinir Aðlarý kýsaca tanýtýlmýþ ve yapay zekanýn in-\nternet üzerindeki uygulama alanlarý üzerinde durulmuþtur. Yapay sinir aðlarý içeren programlarý\ngeliþtirmek için kullanýlan APl'ler hakkýnda bilgiler verilmiþtir. Bu teknikler kullanýlarak web\nsayfalarýný sýnýflandýrmayý amaçlayan bir araç geliþtirilmiþtir.\n\n"", 4: 'Abstract: In this paper artificial intelligence and artificial neural networks introduced briefiy and\napplication areas of artificial intelligence on internet are mentioned. Information about APIs for\ndeveloping applications including artificial neural networks, is given. Using these technigues, a\ntool for classifying web pages is developed.\n\n', 5: ""Anahtar Kelimeler: Yapay zeka, Web'de Zeka, Yapay sinir aðlarý\n\n"", 6: 'Yazýlýmlarýn öðrenebilmesi, tecrübelerine da-\nyanarak davranýþlarýný deðiþtirebilmesini sað-\nlamaktadýr. Öðrenebilen yazýlýmlar ve robotlar\ngibi bu yazýlýmlarý içeren donaným destekli sis-\ntemler günlük yaþamda giderek yaygýnlaþmak-\ntadýr. Yapay sinir aðlarý, makinelerin öðrenme-\nsini saðlayan en güçlü yöntemlerdendir. Bu ça-\nlýþmada, web üzerinde yapay sinir aðý yardýmý\nile öðrenebilen bir uygulama geliþtirilmiþtir.\n\n', 7: '1. Giriþ\n\n', 8: ""Zeki yazýlýmlar geliþtirmeye yönelik çalýþmalar\ngünümüzde önem kazanmýþtýr. Zeki olmayan\nyazýlýmlar, kullanýcýlarýný gereksiz veya tekrarlý\niþleri yapmak durumunda býrakarak verim kay-\nbýna yol açmaktadýrlar. Kullanýcýlar, ayný türde\nyazýlýmlarýn zeki olanlarýný tercih etmektedir-\nler. D. Lenat ve E. Feigenbaum'un tanýmlarýna\ngöre zeka “Karmaþýk bir problemi çözmek için\ngerekli bilgileri toplayýp birleþtirme kabiliye-\ntidir” veya “Karmaþýk bir problemi, çözüm\narama alanýný daraltarak kýsa yoldan çözebilme\nkabiliyetidir”. Zeka'nýn sözlük anlamý ise, in-\nsanýn düþünme, akýl yürütme, nesnel gerçekleri\nalgýlama, kavrama, yargýlama, sonuç çýkarma\nyeteneklerinin tümüdür. Ayrýca; soyutlama, öð-\nrenme ve yeni durumlara uyma gibi yetenekler\nde zeka kapsamý içindedir. Yapay zeka ise, bu\nözelliklere sahip organik olmayan sistemlerde-\nki zekadýr. Luger ve Stubblefield, 1993 yýlýnda\nyapay zekayý “zeki davranýþlarýn otomasyonu\nile ilgili bilgisayar bilimleri dalýdýr” þeklinde\ntanýmlamýþtýr. (11(21(31(4J\n\nUavidiliþidilii ULgiÞM LU. Þili sd”\nlamaktadýr. Öðrenebilen yazýlýmlar ve robotlar\n\ngibi bu yazýlýmlarý içeren donaným destekli sis-\ntemler günlük yaþamda giderek yaygýnlaþmak-\ntadýr. Yapay sinir aðlarý, makinelerin öðrenme-\nsini saðlayan en güçlü yöntemlerdendir. Bu ça-\nlýþmada, web üzerinde yapay sinir aðý yardýmý\nile öðrenebilen bir uygulama geliþtirilmiþtir.\n\n2. Yapay Sinir Aðlarý\n\nYapay Sinir Aðlarý (Artificial Neural Net-\nworks) veya kýsaca Sinir Aðlarý (YSA) insan\nbeyninden esinlenerek geliþtirilmiþ, aðýrlýklý\nbaðlantýlar aracýlýðý ile birbirine baðlanan iþ-\nlem elemanlarýndan oluþan paralel ve daðýtýl-\nmýþ bilgi iþleme yapýlarýdýr. En önemli özelliði,\ndeneyimlerden (tecrübe) yararlanarak öðrene-\nbilmesidir. Yapay sinir aðlarý, insan beyninin\nözelliklerinden olan öðrenme yolu ile yeni bil-\ngiler türetebilme, yeni bilgiler oluþturabilme\nve keþfedebilme gibi yetenekleri herhangi bir\nyardým almadan otomatik olarak gerçekleþtir-\nmek amacý ile geliþtirilmiþlerdir. Yapay sinir\n\n"", 9: '2. Yapay Sinir Aðlarý\n\n', 10: '345\n\n'}, {0: 'Yapay Zeka Teknikleri ve Yapay Sinir Aðlarý Kullanýlarak Web Sayfalarýnýn Sýnýflandýrýlmasý\nAybars Uður, Ahmet Cumhur Kýnacý\n\n', 1: 'aðlarý, öðrenmenin yaný sýra bilgiler arasýnda\niliþkiler oluþturma yeteneðine de sahiptir.\n\nYapay sinir aðlarýnýn temel iþlevleri þu þekilde\nbelirtilebilir :\n\ngöre aðýrlýk deðerleri otomatik olarak deðiþti-\nrilmektedir. Eðitim verisinin tamamlanmasýn-\ndan sonra eðitilmiþ olan að, aðýrlýk deðerlerinin\nson durumuna göre, verilen herhangi bir veri\nsetinin sonucunu tahminleyebilmektedir.\n\n', 2: 'Yapay sinir aðlarýnýn temel iþlevleri þu þekilde\nbelirtilebilir :\n\n', 3: 'Öngörü (Prediction) veya tahminleme :\nÝleriki satýþlar, hava tahminleri, at yarýþla-\nrý, çevresel risk, ...\n\nSýnýflandýrma (Classification) ve Kümele-\nme (Clustering) : Müþteri profilleri, týbbi\nteþhis, ses ve þekil tanýma, hücre tipleri\n\n', 4: 'Yapay sinir aðý bir dizi sinir hücresinin ileri\nsürümlü ve geri beslemeli baðlantý þekilleri ile\nbirbirine baðlanmasý ile oluþur.\n\n', 5: 'Ýnmede ek ZÝ Üyenlele delmek ii eleebek e? ÖÐ ekili\nme (Clustering) : Müþteri profilleri, týbbi\nteþhis, ses ve þekil tanýma, hücre tipleri\n\nGünümüzde, belirli amaçlarla ve deðiþik alan-\nlarda kullanýlmaya uygun birçok yapay sinir\naðý modeli (Perceptron, Adaline, MLP, LVO,\nHopfield, Recurrent, SOM, ART ve PCA gibi)\ngeliþtirilmiþtir. Öðrenme çeþitlerinden öðretici-\nli öðrenme, öðreticisiz öðrenme, destekleyicili\nýca, Veri Birleþtirme (Data Association), oöðrenme ve karma stratejiler kullanýlmaktadýr.\n\nE Si pi\n\nKontrol (Control) : Erken uyarý için uçak-\nlarda ses ve titreþim düzeyleri, ...\n\n', 6: 'Ayrýca, Veri Birleþtirme (Data Association),\na me e ka i\n\nFiltreleme (Data Filtering) için de kullanýlabilir.\n\n', 7: ""3. Web”de Zeka Ve Yapay Zeka'nýn\nÝnternet Üzerindeki Uygulama Alanlarý\n\n"", 8: 'Yapay sinir aðlarýnýn endüstriyel uygulamalar,\nfinans uygulamalarý, askeri ve savunma uygu-\nlamalarý, týp ve saðlýk uygulamalarý, mühendis-\nlik uygulamalarý, robotbilim, görüntü iþleme,\nörüntü tanýma dýþýnda iletiþim sanayi, eðlence\namaçlý tahmin gibi özel uygulama alanlarý da\nbulunmaktadýr.\n\n', 9: ""Web'de Zeka (Web Intelligence), yapay zeka\nyöntemlerinin web tabanlý sistemlere uyarlan-\nmasý ile ilgilenir. Yeni nesil web tabanlý ürün-\nler, sistemler, servisler ve etkinliklerde yapay\nzeka ve ileri bilgi teknolojilerinin kullanýlmasý\nüzerine çalýþmalar yapýlan bir bilimsel araþtýr-\nma geliþtirme alanýdýr.\n\n"", 10: 'Bir yapay sinir aðý hücresi temel olarak gir-\ndilerden, aðýrlýklardan, toplama iþlevinden ve\nçýktýdan oluþur (Þekil 1).\n\n', 11: 'Bu konuyla ilgili araþtýrmalarý organize etmek\nve yönlendirmek üzere “The Web Intelligence\nConsortium” (WIC) kurulmuþtur. WIC tarafýn-\ndan belirlenen 9 ana konu bulunmaktadýr:\n\n', 12: '', 13: 'Web Bilgi Eriþimi\n\n(Web Information Retrieval)\n\nWeb Madenciliði ve Çiftçiliði\n\n(Web Mining and Farming)\n\nSosyal Að (Social Network)\n\n“Grid” Hesaplama (Grid Computing)\nBilgi Aðý ve Yönetimi\n\n(Knowledge Network and Management)\nWeb Etmenleri (Web Agents)\nMulti-modal Etkileþim\n\n(Multi-modal Interaction)\n\nHer yerde olan Hesaplama\n(Ubiguitous Computing)\n\n', 14: 'Çaktý\n\n', 15: '', 16: 'pp\n\n', 17: '', 18: 'e\nAðýrlýklar\nÞekil 1. Yapay Sinir Hücresi\n\n', 19: 'Genelde, verilen bir girdi setine karþýlýk çýktý\ndeðerleri verilerek belirtilen öðrenme kuralýna\n\n', 20: '346\n\n'}, {0: 'inet-tr\'06 - XI. ""Türkiye\'de Ýnternet"" Konferansý Bildirileri\n21-23 Aralýk 2006 TOBB Ekonomi ve Teknoloji Üniversitesi, Ankara\n\n', 1: 'RBF ve Hopfield modellerini destekle-\nmektedir.\n\nFANN : ANSI C ile gerçekleþtirilmiþ bir\nyapay sinir aðý kütüphanesidir. Benzerleri-\nnin çoðundan daha hýzlý çalýþmaktadýr.\n\n', 2: ""Web'de Zeka Sistemleri Uygulamalarý\n(WI Systems Applications)\n\n"", 3: 'Bu baþlýklar kendi içlerinde aþaðýda bir kýsmý ve-\nrilen bir çok uygulama alanýný barýndýrmaktadýr:\n\n', 4: 'Simülasyon :\n\n1. Genesis : Karmaþýk sinir aðý simülasyon\nortamýdýr.\n\n2. Stuttgart Neural Network Simulator : C\nde yazýlmýþ ve X tabanlý grafik arabirimi\nolan yapay sinir aðý uygulama simülasyon\nortamýdýr.\n\n', 5: ""Web Bilgi Eriþimi : Otomatik Web içeriði\nkataloglama ve indeksleme, kavramsal bil-\ngi çýkarýmý, çoklu ortam bilgilerine eriþim.\nWeb Madenciliði ve Çifiçiliði : Veri ma-\ndenciliði ve bilgi keþfi, çoklu ortam veri\nmadenciliði, kullanýcý profili öðrenme.\nBilgi Aðý ve Yönetimi : Web sayfasý oto-\nmatik yaratma ve güncelleme, bilgi çevri-\nmi, çok boyutlu web veri tabanlarý.\n\nWeb Etmenleri: E-posta filtreleme, e-posta\nyarý-otomatik cevaplama, bilgi filtreleme,\nküresel bilgi toplama.\n\nWeb'de Zeka Sistemleri Uygulamalarý\nWeb tabanlý daðýtýk bilgi sistemleri, elekt-\nronik veri takasý, karar destek sistemleri.\n\n"", 6: '', 7: 'Yazýlým ve eklentiler :\n\n1.\n\nNeuroXL : MS Excel için yapay sinir aðý\neklentisidir. Tahminleme, sýnýflandýrma\nve özellikle finansal tahminleme için\ngeliþtirilmiþtir.\n\nNeuroSolutions : Bir çok sinir aðý ve öð-\nrenme algoritmasýný destekleyen ticari bir\nyazýlýmdýr.\n\nNeural Works Professional 11/PLUS : Kap-\nsamlý sinir aðý geliþtirme ortamý sunan ti-\ncari bir yazýlýmdýr.\n\n', 8: '', 9: 'Yapay Sinir Aðlarý için Hazýr Arayüzler\n\n', 10: 'Ýnternet üzerinde yapay sinir aðlarý için bir\nçok yazýlým kütüphanesi ve simülasyon orta-\nmý bulunabilmektedir. Bunlarýn bazýlarý sadece\nkütüphane kýsmýndan oluþurken bazýlarý yapay\nsinir aðý tasarlamayý saðlayan araçlarý da içerir.\nBu tür araçlar özellikle konuyu ileri düzeyde\nbilmeyenler için yazýlýmlara yapay sinir aðý ek-\nlemeyi kolaylaþtýrýr.\n\n', 11: '5. Yapay Sinir Aðlarý Kullanýlarak\nWeb Sayfalarýnýn Sýnýflandýrýlmasý\n\n', 12: 'Web sayfalarýný sýnýflandýran bir uygulama\ngerçekleþtirilmiþtir. Bu örnek uygulamada\namaç yapay sinir aðý yöntemiyle web sayfala-\nrýnýn kategorilere ayrýlabilmesini saðlamaktýr.\nBunun için kullanýlan yapay sinir aðý modeli\nçok katmanlý algýlayýcýlardýr. Uygulama Java\nortamýnda hazýrlanmýþtýr. Yapay sinir aðlarýný\nprogramda kullanmak için JOONE kütüphane-\nsinden yararlanýlmýþtýr.\n\n', 13: 'Belli baþlý yapay sinir aðý arayüzleri aþaðýda\nbelirtilmektedir:\n\n', 14: 'Yazýlým Kütüphanesi :\n\nÝþ\n\nJoone : Açýlýmý Java Object Oriented Ne-\nural Engine olan kütüphane Java ortamýn-\nda yapay sinir aðlarýnýn kullanýlmasý için\ngeliþtirilmiþtir. Ayrýca görsel olarak yapay\nsinir aðýnýn oluþturulmasý ve eðitilmesini\nsaðlayan bir araca sahiptir.\n\nNeural Network Toolbox for MATLAB:\nMATLAB için yapay sinir aðý aracýdýr.\nAnnie : Açýk kaynak kodlu bir kütüphane\nolup Ct-* dili için geliþtirilmiþtir. MLP,\n\nprogramda kullanmak için JOONE ki\nsinden yararlanýlmýþtýr.\n\nÇok katmanlý algýlayýcýlar (Þekil 2) bir çok\nproblemi çözmede kullanýlmaktadýr. Bir girdi\nkatmaný, en az bir tane gizli katman ve bir çýktý\nkatmanýna sahiptir. Girdi katmanýndan gelen\nsinyaller ileri doðrultulu olarak, katman kat-\nman ilerler. Genelde geri yayýlým (Backpropo-\ngation) algoritmasý ile öðrenmektedir.\n\n', 15: '', 16: '347\n\n'}, {0: 'Yapay Zeka Teknikleri ve Yapay Sinir Aðlarý Kullanýlarak Web Sayfalarýnýn Sýnýflandýrýlmasý\nAybars Uður, Ahmet Cumhur Kýnacý\n\n', 1: 'Þekil 3. Örnek uygulamanýn ekran görüntüsü\n\n', 2: 'Þekil 2. Tek gizli katmana sahip bir\nçok katmanlý algýlayýcý modeli.\n\n', 3: 'Uygulamanýn geliþtirilmesinde öncelikli ola-\nrak kategorilere ayrýlmýþ web sayfalarýnýn\nbulunduðu bir veri seti üretmek için dmoz.\norgl5| sitesinin verileri kullanýlmýþtýr. Bu site\nher kategori için mevcut olan editörleriyle, uy-\ngun web sayfalarýnýn kategoriye eklenmesiyle\nbüyüyen bir veri kümesine sahiptir. Benzerle-\nri içinde bu sitenin verilerinin uygulama için\nkullanýlmasýnýn nedeni tüm verilerini XML\ndosyalarýnda tutmasý ve dolayýsýyla rahat iþle-\nnebilir olmasýdýr.\n\nVeri setinin çok büyük olmamasý ve yapay sinir\naðýnýn eðitim süresinin uzamamasý için sadece\n“Computer? baþlýðý altýndaki 44 ana baþlýk de-\nÞerlendirmeye alýnmýþtýr. Girdi verilerinin oluþ-\nturulmasýnda dmoz.org verileri basit bir doðal\ndil iþleme iþleminden geçirilerek uygun keli-\n\n6. Sonuç\n\nÝnternet kullanýcýlarýnýn aradýðý sayfalarýn ve\nbilgilerin bulunmasýnda, zeki bir arama ma-\nkinesi tahminlemeler yaparak iþlem süresini\nkýsaltmakta ve gereksiz ayrýntýlarla uðraþýlma-\nsýný önlemektedir. Web sitelerinde kullanýlan\nzeki sanal yardýmcýlar, kiþileri uygun þekil-\nde yönlendirerek amaçlarýna en kýsa sürede\nulaþmalarýný saðlamaktadýr. Sohbet robotlarý\nkarþýlýklý konuþma imkaný sunmakta, bilgi\nverme, yönlendirme ve eðlence amaçlý olarak\nkullanýlmaktadýr. Belirli kalitede ürünlerin en\nuygun fiyatla satýcýdan veya sanal marketten\nalýnmasý için zeki etmenler kullanýlmaktadýr.\nKiþilik özelliklerini belirleyerek kullanýcýlara,\nsayfalarýný ve bilgilerini en uygun þekilde su-\nnan siteler yapýlmaktadýr.\n\n', 4: '6. Sonuç\n\n', 5: 'Veri setinin çok büyük olmamasý ve yapay sinir\naðýnýn eðitim süresinin uzamamasý için sadece\n“Computer? baþlýðý altýndaki 44 ana baþlýk de-\nÞerlendirmeye alýnmýþtýr. Girdi verilerinin oluþ-\nturulmasýnda dmoz.org verileri basit bir doðal\ndil iþleme iþleminden geçirilerek uygun keli-\n\nsadece isim ve sýfat olan kelimelerin girdi ve-\nrisinde yer almasý mümkün olmuþtur. Doðal dil\niþleme için Stanford Parser|6)J kütüphanesi kul-\nlanýlmýþtýr. Ayrýlan tüm kelimelerden bir indeks\nve her bir internet sayfasý için girdi verisi olarak\nbu indeksin boyutunda bir dizi oluþturulmuþtur.\nBu dizide, sayfada bulunan kelimeler 1.0 ile,\nolmayanlar ise -1.0 ile ifade edilmiþtir.\n\n', 6: 'Yapay sinir aðlarýnýn yazýlýmlarda kullanýlmasý\nsýrasýnda girdi verilerinin oluþturulmasý önemli\nbir problem oluþturur. Bir diðer önemli problem\nise uygun sinir aðý modelinin seçilmesi iþlemi-\ndir. Öncelikle bu iki temel sorunun çözülmesi\niçin geliþtirilecek metotlar ve araçlar, yazýlým-\nlara bu tekniðin daha kolay eklenebilmesini\nsaðlayacaktýr. Geliþtirilen örnek uygulama ile\nyapay zeka tekniklerinin internet üzerinde zeki\nyazýlýmlar oluþturmak için kullanýlabilir olduðu\ngörülmüþtür. Gelecekte yapay zeka teknikleri-\nnin geliþmesi ve internet üzerinde bütünleþik\nçalýþabilen zeki yazýlýmlar ile bir çok alanda\nçok daha baþarýlý sonuçlar alýnacaktýr.\n\n', 7: 'Kullanýlan yapay sinir aðýnýn girdi katmaný oluþ-\nturulan kelime indeksi boyutunda yani 1983 ele-\nmana sahiptir. Gizli katmanda 50 ve çýktý katma-\nnýnda da 44 eleman kullanýlmýþtýr. Uygulamanýn\nekran görüntüsü Þekil 3”te gösterilmektedir.\n\n', 8: ''}]"
+"inet-tr'06 - XI. ""Türkiye'de Ýnternet"" Konferansý Bildirileri
+21-23 Aralýk 2006 TOBB Ekonomi ve Teknoloji Üniversitesi, Ankara
+
+"
+"Yapay Zeka Teknikleri ve Yapay Sinir Aðlarý Kullanýlarak
+
+Web Sayfalarýnýn Sýnýflandýrýlmasý
+
+"
+"Yrd.Doç.Dr. Aybars Uður, Ahmet Cumhur Kýnacý
+Ege Üniversitesi, Bilgisayar Mühendisliði Bölümü
+
+aybars.ugur(Dege.edu.tr, cumhur.kinaci(dege.edu.tr
+
+"
+"Özet: Bu makalede Yapay Zeka ve Yapay Sinir Aðlarý kýsaca tanýtýlmýþ ve yapay zekanýn in-
+ternet üzerindeki uygulama alanlarý üzerinde durulmuþtur. Yapay sinir aðlarý içeren programlarý
+geliþtirmek için kullanýlan APl'ler hakkýnda bilgiler verilmiþtir. Bu teknikler kullanýlarak web
+sayfalarýný sýnýflandýrmayý amaçlayan bir araç geliþtirilmiþtir.
+
+"
+"Abstract: In this paper artificial intelligence and artificial neural networks introduced briefiy and
+application areas of artificial intelligence on internet are mentioned. Information about APIs for
+developing applications including artificial neural networks, is given. Using these technigues, a
+tool for classifying web pages is developed.
+
+"
+"Anahtar Kelimeler: Yapay zeka, Web'de Zeka, Yapay sinir aðlarý
+
+"
+"Yazýlýmlarýn öðrenebilmesi, tecrübelerine da-
+yanarak davranýþlarýný deðiþtirebilmesini sað-
+lamaktadýr. Öðrenebilen yazýlýmlar ve robotlar
+gibi bu yazýlýmlarý içeren donaným destekli sis-
+temler günlük yaþamda giderek yaygýnlaþmak-
+tadýr. Yapay sinir aðlarý, makinelerin öðrenme-
+sini saðlayan en güçlü yöntemlerdendir. Bu ça-
+lýþmada, web üzerinde yapay sinir aðý yardýmý
+ile öðrenebilen bir uygulama geliþtirilmiþtir.
+
+"
+"1. Giriþ
+
+"
+"Zeki yazýlýmlar geliþtirmeye yönelik çalýþmalar
+günümüzde önem kazanmýþtýr. Zeki olmayan
+yazýlýmlar, kullanýcýlarýný gereksiz veya tekrarlý
+iþleri yapmak durumunda býrakarak verim kay-
+býna yol açmaktadýrlar. Kullanýcýlar, ayný türde
+yazýlýmlarýn zeki olanlarýný tercih etmektedir-
+ler. D. Lenat ve E. Feigenbaum'un tanýmlarýna
+göre zeka “Karmaþýk bir problemi çözmek için
+gerekli bilgileri toplayýp birleþtirme kabiliye-
+tidir” veya “Karmaþýk bir problemi, çözüm
+arama alanýný daraltarak kýsa yoldan çözebilme
+kabiliyetidir”. Zeka'nýn sözlük anlamý ise, in-
+sanýn düþünme, akýl yürütme, nesnel gerçekleri
+algýlama, kavrama, yargýlama, sonuç çýkarma
+yeteneklerinin tümüdür. Ayrýca; soyutlama, öð-
+renme ve yeni durumlara uyma gibi yetenekler
+de zeka kapsamý içindedir. Yapay zeka ise, bu
+özelliklere sahip organik olmayan sistemlerde-
+ki zekadýr. Luger ve Stubblefield, 1993 yýlýnda
+yapay zekayý “zeki davranýþlarýn otomasyonu
+ile ilgili bilgisayar bilimleri dalýdýr” þeklinde
+tanýmlamýþtýr. (11(21(31(4J
+
+Uavidiliþidilii ULgiÞM LU. Þili sd”
+lamaktadýr. Öðrenebilen yazýlýmlar ve robotlar
+
+gibi bu yazýlýmlarý içeren donaným destekli sis-
+temler günlük yaþamda giderek yaygýnlaþmak-
+tadýr. Yapay sinir aðlarý, makinelerin öðrenme-
+sini saðlayan en güçlü yöntemlerdendir. Bu ça-
+lýþmada, web üzerinde yapay sinir aðý yardýmý
+ile öðrenebilen bir uygulama geliþtirilmiþtir.
+
+2. Yapay Sinir Aðlarý
+
+Yapay Sinir Aðlarý (Artificial Neural Net-
+works) veya kýsaca Sinir Aðlarý (YSA) insan
+beyninden esinlenerek geliþtirilmiþ, aðýrlýklý
+baðlantýlar aracýlýðý ile birbirine baðlanan iþ-
+lem elemanlarýndan oluþan paralel ve daðýtýl-
+mýþ bilgi iþleme yapýlarýdýr. En önemli özelliði,
+deneyimlerden (tecrübe) yararlanarak öðrene-
+bilmesidir. Yapay sinir aðlarý, insan beyninin
+özelliklerinden olan öðrenme yolu ile yeni bil-
+giler türetebilme, yeni bilgiler oluþturabilme
+ve keþfedebilme gibi yetenekleri herhangi bir
+yardým almadan otomatik olarak gerçekleþtir-
+mek amacý ile geliþtirilmiþlerdir. Yapay sinir
+
+"
+"2. Yapay Sinir Aðlarý
+
+"
+"345
+
+"
+"Yapay Zeka Teknikleri ve Yapay Sinir Aðlarý Kullanýlarak Web Sayfalarýnýn Sýnýflandýrýlmasý
+Aybars Uður, Ahmet Cumhur Kýnacý
+
+"
+"aðlarý, öðrenmenin yaný sýra bilgiler arasýnda
+iliþkiler oluþturma yeteneðine de sahiptir.
+
+Yapay sinir aðlarýnýn temel iþlevleri þu þekilde
+belirtilebilir :
+
+göre aðýrlýk deðerleri otomatik olarak deðiþti-
+rilmektedir. Eðitim verisinin tamamlanmasýn-
+dan sonra eðitilmiþ olan að, aðýrlýk deðerlerinin
+son durumuna göre, verilen herhangi bir veri
+setinin sonucunu tahminleyebilmektedir.
+
+"
+"Yapay sinir aðlarýnýn temel iþlevleri þu þekilde
+belirtilebilir :
+
+"
+"Öngörü (Prediction) veya tahminleme :
+Ýleriki satýþlar, hava tahminleri, at yarýþla-
+rý, çevresel risk, ...
+
+Sýnýflandýrma (Classification) ve Kümele-
+me (Clustering) : Müþteri profilleri, týbbi
+teþhis, ses ve þekil tanýma, hücre tipleri
+
+"
+"Yapay sinir aðý bir dizi sinir hücresinin ileri
+sürümlü ve geri beslemeli baðlantý þekilleri ile
+birbirine baðlanmasý ile oluþur.
+
+"
+"Ýnmede ek ZÝ Üyenlele delmek ii eleebek e? ÖÐ ekili
+me (Clustering) : Müþteri profilleri, týbbi
+teþhis, ses ve þekil tanýma, hücre tipleri
+
+Günümüzde, belirli amaçlarla ve deðiþik alan-
+larda kullanýlmaya uygun birçok yapay sinir
+aðý modeli (Perceptron, Adaline, MLP, LVO,
+Hopfield, Recurrent, SOM, ART ve PCA gibi)
+geliþtirilmiþtir. Öðrenme çeþitlerinden öðretici-
+li öðrenme, öðreticisiz öðrenme, destekleyicili
+ýca, Veri Birleþtirme (Data Association), oöðrenme ve karma stratejiler kullanýlmaktadýr.
+
+E Si pi
+
+Kontrol (Control) : Erken uyarý için uçak-
+larda ses ve titreþim düzeyleri, ...
+
+"
+"Ayrýca, Veri Birleþtirme (Data Association),
+a me e ka i
+
+Filtreleme (Data Filtering) için de kullanýlabilir.
+
+"
+"3. Web”de Zeka Ve Yapay Zeka'nýn
+Ýnternet Üzerindeki Uygulama Alanlarý
+
+"
+"Yapay sinir aðlarýnýn endüstriyel uygulamalar,
+finans uygulamalarý, askeri ve savunma uygu-
+lamalarý, týp ve saðlýk uygulamalarý, mühendis-
+lik uygulamalarý, robotbilim, görüntü iþleme,
+örüntü tanýma dýþýnda iletiþim sanayi, eðlence
+amaçlý tahmin gibi özel uygulama alanlarý da
+bulunmaktadýr.
+
+"
+"Web'de Zeka (Web Intelligence), yapay zeka
+yöntemlerinin web tabanlý sistemlere uyarlan-
+masý ile ilgilenir. Yeni nesil web tabanlý ürün-
+ler, sistemler, servisler ve etkinliklerde yapay
+zeka ve ileri bilgi teknolojilerinin kullanýlmasý
+üzerine çalýþmalar yapýlan bir bilimsel araþtýr-
+ma geliþtirme alanýdýr.
+
+"
+"Bir yapay sinir aðý hücresi temel olarak gir-
+dilerden, aðýrlýklardan, toplama iþlevinden ve
+çýktýdan oluþur (Þekil 1).
+
+"
+"Bu konuyla ilgili araþtýrmalarý organize etmek
+ve yönlendirmek üzere “The Web Intelligence
+Consortium” (WIC) kurulmuþtur. WIC tarafýn-
+dan belirlenen 9 ana konu bulunmaktadýr:
+
+"
+""
+"Web Bilgi Eriþimi
+
+(Web Information Retrieval)
+
+Web Madenciliði ve Çiftçiliði
+
+(Web Mining and Farming)
+
+Sosyal Að (Social Network)
+
+“Grid” Hesaplama (Grid Computing)
+Bilgi Aðý ve Yönetimi
+
+(Knowledge Network and Management)
+Web Etmenleri (Web Agents)
+Multi-modal Etkileþim
+
+(Multi-modal Interaction)
+
+Her yerde olan Hesaplama
+(Ubiguitous Computing)
+
+"
+"Çaktý
+
+"
+""
+"pp
+
+"
+""
+"e
+Aðýrlýklar
+Þekil 1. Yapay Sinir Hücresi
+
+"
+"Genelde, verilen bir girdi setine karþýlýk çýktý
+deðerleri verilerek belirtilen öðrenme kuralýna
+
+"
+"346
+
+"
+"inet-tr'06 - XI. ""Türkiye'de Ýnternet"" Konferansý Bildirileri
+21-23 Aralýk 2006 TOBB Ekonomi ve Teknoloji Üniversitesi, Ankara
+
+"
+"RBF ve Hopfield modellerini destekle-
+mektedir.
+
+FANN : ANSI C ile gerçekleþtirilmiþ bir
+yapay sinir aðý kütüphanesidir. Benzerleri-
+nin çoðundan daha hýzlý çalýþmaktadýr.
+
+"
+"Web'de Zeka Sistemleri Uygulamalarý
+(WI Systems Applications)
+
+"
+"Bu baþlýklar kendi içlerinde aþaðýda bir kýsmý ve-
+rilen bir çok uygulama alanýný barýndýrmaktadýr:
+
+"
+"Simülasyon :
+
+1. Genesis : Karmaþýk sinir aðý simülasyon
+ortamýdýr.
+
+2. Stuttgart Neural Network Simulator : C
+de yazýlmýþ ve X tabanlý grafik arabirimi
+olan yapay sinir aðý uygulama simülasyon
+ortamýdýr.
+
+"
+"Web Bilgi Eriþimi : Otomatik Web içeriði
+kataloglama ve indeksleme, kavramsal bil-
+gi çýkarýmý, çoklu ortam bilgilerine eriþim.
+Web Madenciliði ve Çifiçiliði : Veri ma-
+denciliði ve bilgi keþfi, çoklu ortam veri
+madenciliði, kullanýcý profili öðrenme.
+Bilgi Aðý ve Yönetimi : Web sayfasý oto-
+matik yaratma ve güncelleme, bilgi çevri-
+mi, çok boyutlu web veri tabanlarý.
+
+Web Etmenleri: E-posta filtreleme, e-posta
+yarý-otomatik cevaplama, bilgi filtreleme,
+küresel bilgi toplama.
+
+Web'de Zeka Sistemleri Uygulamalarý
+Web tabanlý daðýtýk bilgi sistemleri, elekt-
+ronik veri takasý, karar destek sistemleri.
+
+"
+""
+"Yazýlým ve eklentiler :
+
+1.
+
+NeuroXL : MS Excel için yapay sinir aðý
+eklentisidir. Tahminleme, sýnýflandýrma
+ve özellikle finansal tahminleme için
+geliþtirilmiþtir.
+
+NeuroSolutions : Bir çok sinir aðý ve öð-
+renme algoritmasýný destekleyen ticari bir
+yazýlýmdýr.
+
+Neural Works Professional 11/PLUS : Kap-
+samlý sinir aðý geliþtirme ortamý sunan ti-
+cari bir yazýlýmdýr.
+
+"
+""
+"Yapay Sinir Aðlarý için Hazýr Arayüzler
+
+"
+"Ýnternet üzerinde yapay sinir aðlarý için bir
+çok yazýlým kütüphanesi ve simülasyon orta-
+mý bulunabilmektedir. Bunlarýn bazýlarý sadece
+kütüphane kýsmýndan oluþurken bazýlarý yapay
+sinir aðý tasarlamayý saðlayan araçlarý da içerir.
+Bu tür araçlar özellikle konuyu ileri düzeyde
+bilmeyenler için yazýlýmlara yapay sinir aðý ek-
+lemeyi kolaylaþtýrýr.
+
+"
+"5. Yapay Sinir Aðlarý Kullanýlarak
+Web Sayfalarýnýn Sýnýflandýrýlmasý
+
+"
+"Web sayfalarýný sýnýflandýran bir uygulama
+gerçekleþtirilmiþtir. Bu örnek uygulamada
+amaç yapay sinir aðý yöntemiyle web sayfala-
+rýnýn kategorilere ayrýlabilmesini saðlamaktýr.
+Bunun için kullanýlan yapay sinir aðý modeli
+çok katmanlý algýlayýcýlardýr. Uygulama Java
+ortamýnda hazýrlanmýþtýr. Yapay sinir aðlarýný
+programda kullanmak için JOONE kütüphane-
+sinden yararlanýlmýþtýr.
+
+"
+"Belli baþlý yapay sinir aðý arayüzleri aþaðýda
+belirtilmektedir:
+
+"
+"Yazýlým Kütüphanesi :
+
+Ýþ
+
+Joone : Açýlýmý Java Object Oriented Ne-
+ural Engine olan kütüphane Java ortamýn-
+da yapay sinir aðlarýnýn kullanýlmasý için
+geliþtirilmiþtir. Ayrýca görsel olarak yapay
+sinir aðýnýn oluþturulmasý ve eðitilmesini
+saðlayan bir araca sahiptir.
+
+Neural Network Toolbox for MATLAB:
+MATLAB için yapay sinir aðý aracýdýr.
+Annie : Açýk kaynak kodlu bir kütüphane
+olup Ct-* dili için geliþtirilmiþtir. MLP,
+
+programda kullanmak için JOONE ki
+sinden yararlanýlmýþtýr.
+
+Çok katmanlý algýlayýcýlar (Þekil 2) bir çok
+problemi çözmede kullanýlmaktadýr. Bir girdi
+katmaný, en az bir tane gizli katman ve bir çýktý
+katmanýna sahiptir. Girdi katmanýndan gelen
+sinyaller ileri doðrultulu olarak, katman kat-
+man ilerler. Genelde geri yayýlým (Backpropo-
+gation) algoritmasý ile öðrenmektedir.
+
+"
+""
+"347
+
+"
+"Yapay Zeka Teknikleri ve Yapay Sinir Aðlarý Kullanýlarak Web Sayfalarýnýn Sýnýflandýrýlmasý
+Aybars Uður, Ahmet Cumhur Kýnacý
+
+"
+"Þekil 3. Örnek uygulamanýn ekran görüntüsü
+
+"
+"Þekil 2. Tek gizli katmana sahip bir
+çok katmanlý algýlayýcý modeli.
+
+"
+"Uygulamanýn geliþtirilmesinde öncelikli ola-
+rak kategorilere ayrýlmýþ web sayfalarýnýn
+bulunduðu bir veri seti üretmek için dmoz.
+orgl5| sitesinin verileri kullanýlmýþtýr. Bu site
+her kategori için mevcut olan editörleriyle, uy-
+gun web sayfalarýnýn kategoriye eklenmesiyle
+büyüyen bir veri kümesine sahiptir. Benzerle-
+ri içinde bu sitenin verilerinin uygulama için
+kullanýlmasýnýn nedeni tüm verilerini XML
+dosyalarýnda tutmasý ve dolayýsýyla rahat iþle-
+nebilir olmasýdýr.
+
+Veri setinin çok büyük olmamasý ve yapay sinir
+aðýnýn eðitim süresinin uzamamasý için sadece
+“Computer? baþlýðý altýndaki 44 ana baþlýk de-
+Þerlendirmeye alýnmýþtýr. Girdi verilerinin oluþ-
+turulmasýnda dmoz.org verileri basit bir doðal
+dil iþleme iþleminden geçirilerek uygun keli-
+
+6. Sonuç
+
+Ýnternet kullanýcýlarýnýn aradýðý sayfalarýn ve
+bilgilerin bulunmasýnda, zeki bir arama ma-
+kinesi tahminlemeler yaparak iþlem süresini
+kýsaltmakta ve gereksiz ayrýntýlarla uðraþýlma-
+sýný önlemektedir. Web sitelerinde kullanýlan
+zeki sanal yardýmcýlar, kiþileri uygun þekil-
+de yönlendirerek amaçlarýna en kýsa sürede
+ulaþmalarýný saðlamaktadýr. Sohbet robotlarý
+karþýlýklý konuþma imkaný sunmakta, bilgi
+verme, yönlendirme ve eðlence amaçlý olarak
+kullanýlmaktadýr. Belirli kalitede ürünlerin en
+uygun fiyatla satýcýdan veya sanal marketten
+alýnmasý için zeki etmenler kullanýlmaktadýr.
+Kiþilik özelliklerini belirleyerek kullanýcýlara,
+sayfalarýný ve bilgilerini en uygun þekilde su-
+nan siteler yapýlmaktadýr.
+
+"
+"6. Sonuç
+
+"
+"Veri setinin çok büyük olmamasý ve yapay sinir
+aðýnýn eðitim süresinin uzamamasý için sadece
+“Computer? baþlýðý altýndaki 44 ana baþlýk de-
+Þerlendirmeye alýnmýþtýr. Girdi verilerinin oluþ-
+turulmasýnda dmoz.org verileri basit bir doðal
+dil iþleme iþleminden geçirilerek uygun keli-
+
+sadece isim ve sýfat olan kelimelerin girdi ve-
+risinde yer almasý mümkün olmuþtur. Doðal dil
+iþleme için Stanford Parser|6)J kütüphanesi kul-
+lanýlmýþtýr. Ayrýlan tüm kelimelerden bir indeks
+ve her bir internet sayfasý için girdi verisi olarak
+bu indeksin boyutunda bir dizi oluþturulmuþtur.
+Bu dizide, sayfada bulunan kelimeler 1.0 ile,
+olmayanlar ise -1.0 ile ifade edilmiþtir.
+
+"
+"Yapay sinir aðlarýnýn yazýlýmlarda kullanýlmasý
+sýrasýnda girdi verilerinin oluþturulmasý önemli
+bir problem oluþturur. Bir diðer önemli problem
+ise uygun sinir aðý modelinin seçilmesi iþlemi-
+dir. Öncelikle bu iki temel sorunun çözülmesi
+için geliþtirilecek metotlar ve araçlar, yazýlým-
+lara bu tekniðin daha kolay eklenebilmesini
+saðlayacaktýr. Geliþtirilen örnek uygulama ile
+yapay zeka tekniklerinin internet üzerinde zeki
+yazýlýmlar oluþturmak için kullanýlabilir olduðu
+görülmüþtür. Gelecekte yapay zeka teknikleri-
+nin geliþmesi ve internet üzerinde bütünleþik
+çalýþabilen zeki yazýlýmlar ile bir çok alanda
+çok daha baþarýlý sonuçlar alýnacaktýr.
+
+"
+"Kullanýlan yapay sinir aðýnýn girdi katmaný oluþ-
+turulan kelime indeksi boyutunda yani 1983 ele-
+mana sahiptir. Gizli katmanda 50 ve çýktý katma-
+nýnda da 44 eleman kullanýlmýþtýr. Uygulamanýn
+ekran görüntüsü Þekil 3”te gösterilmektedir.
+
+"
+""
